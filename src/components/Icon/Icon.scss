@@ -1,0 +1,19 @@
+@import "../../scss/base.scss";
+
+.Icon {
+  &--primary {
+    height: 150px;
+  }
+
+  &--secondary {
+    height: 25px;
+  }
+
+  &--terciary {
+    height: 200px;
+  }
+
+  &--cuaternary{
+    height: 35px;
+  }
+}

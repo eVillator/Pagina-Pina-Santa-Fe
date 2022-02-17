@@ -1,0 +1,201 @@
+{
+  "nav": {
+    "icon": "nav",
+    "items": [
+      {
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "label": "Nosotros",
+        "url": "/#Nosotros"
+      },
+      {
+        "label": "Productos",
+        "url" : "/#Menu"
+      },
+      {
+        "label": "Promociones",
+        "url": "/#Promo"
+      }, 
+      {
+        "label": "Contacto",
+        "url": "/#Contactos"
+      }
+    ]
+  },
+  "hero": {
+    "title": "Piñas Santa Fe",
+    "subtitle": "Empresa productiva de piña MD2 de la más alta calidad.",
+    "icon" : "lightHamburger"
+  },
+  "quote": {
+    "title": "Nosotros",
+    "coti": [
+      {
+        "label": "Solicitud de Cotización",
+        "url": "/#Contactos"
+      }
+    ],
+    "culture": [
+      {
+        "titulo": "Misión",
+        "subtitulo": "Somos un equipo de trabajo dedicado y comprometido a producir piñas MD2 inocuas y de calidad, para satisfacer a nuestros clientes nacionales e internacionales."
+      },
+      {
+        "titulo": "Visión",
+        "subtitulo": "Ser una empresa productiva de piña MD2 de la más alta calidad, estando a la vanguardia, comprometida con la responsabilidad social y el medio ambiente.                        "
+      },
+      {
+        "titulo": "Valores",
+        "subtitulo": "Respeto, compromiso, honestidad, disciplina, lealtad, responsabilidad, trabajo en equipo.                                                                                      "
+      },
+      {
+        "titulo": "Política",
+        "subtitulo": "Comprometidos a producir piñas inocuas y de las más alta calidad para satisfacer a nuestros clientes, siendo responsables con la sociedad y con el medio ambiente, incrementando nuestra productividad y mejorando continuamente nuestros procesos.          "
+      }
+    ]
+  },
+  "menu": {
+    "title": "Nuestros Productos",
+    "items": [
+      {
+        "icon": "hamburger"
+      },
+      {
+        "icon": "fries"
+      },
+      {
+        "icon": "soda"
+      }
+    ],
+    "coti": [
+      {
+        "label": "Solicitud de Cotización",
+        "url": "/#Contactos"
+      }
+    ],
+    "products": [
+      {
+        "title": "Color A",
+        "subtitle": "Rastro de color amarillo que comienza a aparecer en el centro de los ojos.",
+        "items": [
+          {
+            "icon": "imagen1"
+          },
+          {
+            "icon": "imagen2"
+          }
+        ]
+      },
+      {
+        "title": "Color B",
+        "subtitle": "Rotura de color clara en algunos ojos que muestra un cambio a amarillo.",
+        "items": [
+          {
+            "icon": "imagen3"
+          },
+          {
+            "icon": "imagen4"
+          }
+        ]
+      },
+      {
+        "title": "Color C",
+        "subtitle": "La mayoría de los ojos muestran un relleno parcial de color amarillo.",
+        "items": [
+          {
+            "icon": "imagen5"
+          },
+          {
+            "icon": "imagen6"
+          }
+        ]
+      }
+    ]
+  },
+  "challenge": {
+    "title": "Promociones",
+    "subtitle": "Cuéntanos en Redes Sociales lo que mas te gusta de Piñas Santa Fe utilizando el #RetoPSF y obtén 15% de descuento.",
+    "social": [
+      {
+        "icon": "facebook",
+        "url" : "https://www.facebook.com/recursoshumanos.pinassantafe"
+      },
+      {
+        "icon": "instagram",
+        "url": "/#Contactos"
+      },
+      {
+        "icon": "tiktok",
+        "url":  "/#Menu"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contáctos.",
+    "items": [
+      {
+        "title": "Teléfono",
+        "subtitle": "+52 (937) 116 8110"
+      },
+      {
+        "title": "Correo",
+        "subtitle": "ventas.psf@hotmail.com"
+      },
+      {
+        "title": "Dirección",
+        "subtitle": "Carretera estatal tierra nueva 3ra. sección a estación Zanapa Km. 9 S/N, Huimanguillo, Tabasco. C.P. 86430"
+      }
+    ]
+  },
+  "styleguide": {
+    "title": "PIÑAS SANTA FE",
+    "sections": [
+      {
+        "title": "Colores",
+        "subtitle": "Añade acá tu paleta de color. Debes reemplazar las variables de color en colors.scss"
+      },
+      {
+        "title": "Tipografia",
+        "subtitle": "Añade acá tus fuentes. Debes reemplazar las variables de tipografía y los estilos de los headings en typography.scss"
+      },
+      {
+        "title": "Grid",
+        "subtitle": "Este proyecto utiliza 4 columnas en dispositivos móviles y 12 columnas a partir de tablet. Escala la página para ver como funciona."
+      },
+      {
+        "title": "Botones",
+        "subtitle": "Cambia los estilos de los botones en Cta.scss"
+      },
+      {
+        "title": "Quote",
+        "subtitle": "Este es un ejemplo del componente Quote."
+      },
+      {
+        "title": "Product",
+        "subtitle": "Este es un ejemplo del componente Product."
+      },
+      {
+        "title": "Menu",
+        "subtitle": "Este es un ejemplo del componente Menu."
+      },
+      {
+        "title": "Challenge",
+        "subtitle": "Este es un ejemplo del componente Challenge."
+      },
+      {
+        "title": "ContactBox",
+        "subtitle": "Este es un ejemplo del componente ContactBox."
+      },
+      {
+        "title": "Nav",
+        "subtitle": "Este es un ejemplo del componente Nav."
+      },
+      {
+        "title": "Hero",
+        "subtitle": "Este es un ejemplo del componente Hero."
+      }
+    ]
+  }
+}
