@@ -9,7 +9,7 @@ function Quote(props) {
     return content.culture.map((item,index) => {
       return (
         <li key ={index} className={`${cssClass}-product`}>
-          <div key={index} className={`${cssClass}-product`}>
+          <div key={index} className={`${cssClass}-product-inside`}>
             <h4 className={`${cssClass}-title h4--dark`}>
               {item.titulo}
             </h4>

@@ -22,11 +22,12 @@ function Nav(props) {
     })
   })();
 
+  // onclick = showAndHideNav()  en el boton
   return (
     <div className={`${cssClass} ${cssClass}--${props.type}`}>
       <div className="grid">
         <div className={`${cssClass}-button`}>
-          <Cta type={uiConfig.cta} icon={content.icon} iconType={uiConfig.icon}/>
+          <Cta type={uiConfig.cta} icon={content.icon} iconType={uiConfig.icon} />
         </div>
         <ul className={`${cssClass}-list`}>
           {List}

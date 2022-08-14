@@ -13,6 +13,19 @@ function Menu(props) {
 
   }
 
+  const pineappleColors =["colorA","colorB","colorC"];
+
+  /* componente experimental Product (el original sin cambios esta abajo)
+  const Products = (() => {
+    return content.products.map((product, index) => {
+      return(
+        <li key={index} className={`${cssClass}-product`}    id={pineappleColors[index]}     >
+          <Product content={product} />
+        </li>
+      )
+    })
+  })();
+*/
   const Tabs = (() => {
     return content.items.map((item, index) => {
       return(
@@ -22,6 +35,7 @@ function Menu(props) {
       )
     })
   })();
+
 
   const Products = (() => {
     return content.products.map((product, index) => {
