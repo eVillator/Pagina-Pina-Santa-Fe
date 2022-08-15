@@ -5,6 +5,7 @@ import Hero from '../modules/Hero/Hero';
 import Menu from '../modules/Menu/Menu';
 import Nav from '../components/Nav/Nav';
 import Quote from '../components/Quote/Quote';
+import button from '../components/Cta/buttonFuntions';
 
 class Home extends Component {
   render() {
@@ -24,6 +25,8 @@ class Home extends Component {
         <Menu content={content.menu} />
         <Challenge content={content.challenge} />
         <Contact content={content.contact} />
+
+        <script src={button}></script>
       </div>
     );
   }
