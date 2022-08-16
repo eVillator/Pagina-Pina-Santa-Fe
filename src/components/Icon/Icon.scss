@@ -10,7 +10,13 @@
   }
 
   &--terciary {
-    height: 200px;
+    height: 150px;
+  }
+
+  @media screen and (max-width:1279px) and (min-width: 480px){
+    &--terciary {
+      height: 200px;
+    }
   }
 
   &--cuaternary{

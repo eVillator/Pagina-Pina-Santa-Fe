@@ -22,11 +22,21 @@ function Nav(props) {
     })
   })();
 
+const showAndHideNav = ()=>{
+  const navList = document.querySelector(".Nav-list");
+  if(navList.style.display === "block"){
+      navList.style.display = "none";
+  }
+  else{
+      navList.style.display = "block"
+  } 
+} 
+
   return (
     <div className={`${cssClass} ${cssClass}--${props.type}`}>
       <div className="grid">
         <div className={`${cssClass}-button`}>
-          <Cta type={uiConfig.cta} icon={content.icon} iconType={uiConfig.icon}/>
+          <Cta type={uiConfig.cta} icon={content.icon} iconType={uiConfig.icon} buttonAction={showAndHideNav} />
         </div>
         <ul className={`${cssClass}-list`}>
           {List}

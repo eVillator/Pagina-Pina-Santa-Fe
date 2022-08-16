@@ -8,8 +8,8 @@ function Quote(props) {
   const Products = (() => {
     return content.culture.map((item,index) => {
       return (
-        <li key ={index} className={`${cssClass}-product`}>
-          <div key={index} className={`${cssClass}-product`}>
+        <li key ={index} className={`${cssClass}-product ${cssClass}-product-img-${index+1}`}>
+         <div key={index} className={`${cssClass}-product-inside`}>
             <h4 className={`${cssClass}-title h4--dark`}>
               {item.titulo}
             </h4>

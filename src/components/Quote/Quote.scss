@@ -17,15 +17,31 @@
     padding: 0;
   }
 
+  &-product-img-1{
+    background-image: url(../../images/pexels-harm-jakob-tolsma-1719487.jpg); // piña recien nacida (mision)
+    // background-image: url(../../images/pexels-photo-136075.jpg); // piña viendo al cielo (mision)
+  }
+
+  &-product-img-2{
+    background-image: url(../../images/pexels-pineapple-supply-co-139229.jpg); // piña en playa (vision)
+  }
+
+  &-product-img-3{
+    background-image: url(../../images/pexels-photo.jpg); // piña en pastito (valores)
+  }
+
+  &-product-img-4{
+    // background-image: url(../../images/pexels-pineapple-supply-co-137141.jpg); // piña en picina (politica)
+    background-image: url("../../images/background Piña Santa Fe.jpg"); // piña en picina (politica)
+  }
+
   &-product {
-    background-image: url(../../images/pexels-pineapple-supply-co-139229.jpg);
     background-position: center;
     background-size: cover; 
     background-repeat: no-repeat;
     grid-column: 1/-1;
     margin-top: 32px;
     margin-bottom: $padding-small;
-    
     
     @include for-size(l) {
       &:nth-child(1) {
@@ -49,5 +65,19 @@
       }
     }
   }
+
+  &-product-inside{
+    margin: 32px;
+    padding: 5px;
+    background-color: rgba(255,255,255,.5);   
+    height: 85% 
+  }
+
+  @media screen and (min-width: 568px){
+    &-product-inside{
+      height: 70%;
+    }
+  }
+
 
 }

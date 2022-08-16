@@ -10,14 +10,44 @@ function Menu(props) {
     'ctaTab': 'terciary',
     'ctaIcon': 'primary',
     'cta': 'secondary',
-
   }
+
+  const pineappleColors =["colorA","colorB","colorC"];
+
+  const pineappleMenu = (idSection) => {
+    const productA = document.getElementById("colorA");
+    productA.style.backgroundColor = "inherit";
+    const productB = document.getElementById("colorB");
+    productB.style.backgroundColor = "inherit";
+    const productC = document.getElementById("colorC");
+    productC.style.backgroundColor = "inherit";
+
+    switch (idSection) {
+        case "colorA":
+            productA.style.backgroundColor = "rgba(255, 255, 204, .5)";
+            break;
+        case "colorB":
+            productB.style.backgroundColor = "rgba(255, 255, 179, .5)";
+            break;
+        case "colorC":
+            productC.style.backgroundColor = "rgba(255, 255, 153, .5)";
+            break;
+        default:
+            break;
+    }
+}
 
   const Tabs = (() => {
     return content.items.map((item, index) => {
       return(
         <li key={index} className={`${cssClass}-item`}>
-          <Cta type={uiConfig.ctaTab} icon={item.icon} iconType={uiConfig.ctaIcon}/>
+          <a href={"./#"+pineappleColors[index]}>
+          <Cta type={uiConfig.ctaTab} icon={item.icon} iconType={uiConfig.ctaIcon} 
+            buttonAction={
+              ()=>{pineappleMenu(pineappleColors[index])}
+              }
+          />
+          </a>
         </li>
       )
     })
@@ -26,7 +56,7 @@ function Menu(props) {
   const Products = (() => {
     return content.products.map((product, index) => {
       return(
-        <li key={index} className={`${cssClass}-product`}>
+        <li key={index} className={`${cssClass}-product`} id={pineappleColors[index]}     >
           <Product content={product} />
         </li>
       )
