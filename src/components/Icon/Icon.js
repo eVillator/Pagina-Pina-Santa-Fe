@@ -13,6 +13,9 @@ import imagen3 from '../../images/imagen3.png';
 import imagen4 from '../../images/imagen4.png';
 import imagen5 from '../../images/imagen5.png';
 import imagen6 from '../../images/imagen6.png';
+import dir from '../../images/geo.svg';
+import email from '../../images/email.svg';
+import tel from '../../images/telephone.svg';
 import './Icon.scss';
 
 function Icon(props) {
@@ -26,6 +29,9 @@ function Icon(props) {
     'soda': soda,
     'fries': fries,
     'nav': nav,
+    'dir': dir,
+    'email': email,
+    'tel': tel,
     'imagen1': imagen1,
     'imagen2': imagen2,
     'imagen3': imagen3,

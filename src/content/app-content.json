@@ -15,7 +15,7 @@
         "url" : "/#Menu"
       },
       {
-        "label": "Promociones",
+        "label": "Sabías que..",
         "url": "/#Promo"
       }, 
       {
@@ -26,7 +26,8 @@
   },
   "hero": {
     "title": "Piñas Santa Fe",
-    "subtitle": "Empresa productiva de piña MD2 de la más alta calidad.",
+    "subtitle": "\"Ninguno de nosotros es tan bueno como todos nosotros juntos.\"",
+    "subtitle2": "— Ray Kroc",
     "icon" : "lightHamburger"
   },
   "quote": {
@@ -51,8 +52,8 @@
         "subtitulo": "Respeto, compromiso, honestidad, disciplina, lealtad, responsabilidad, trabajo en equipo.                                                                                      "
       },
       {
-        "titulo": "Política",
-        "subtitulo": "Comprometidos a producir piñas inocuas y de las más alta calidad para satisfacer a nuestros clientes, siendo responsables con la sociedad y con el medio ambiente, incrementando nuestra productividad y mejorando continuamente nuestros procesos.          "
+        "titulo": "Política de calidad",
+        "subtitulo": "En Piñas Santa Fe estamos comprometidos a producir piñas inocuas y de las más alta calidad para satisfacer a nuestros clientes, siendo responsables con la sociedad y con el medio ambiente, incrementando nuestra productividad y mejorando continuamente nuestros procesos.          "
       }
     ]
   },
@@ -115,8 +116,8 @@
     ]
   },
   "challenge": {
-    "title": "Promociones",
-    "subtitle": "Cuéntanos en Redes Sociales lo que mas te gusta de Piñas Santa Fe utilizando el #RetoPSF y obtén 15% de descuento.",
+    "title": "Sabías que.. ",
+    "subtitle" : "La piña contiene 85% de agua, carbohidratos y fibra. También ayuda al sistema digestivo, si se consume con frecuencia puede reducir problemas como la tensión, el estreñimiento, la hipertensión, el estrés, el colesterol, la anemia, la gota, la acidez estomacal, flatulencia, cáncer, problemas degenerativos, problemas cardiovasculares, problemas circulatorios y artritis.",
     "social": [
       {
         "icon": "facebook",
@@ -133,19 +134,29 @@
     ]
   },
   "contact": {
-    "title": "Contáctos.",
-    "items": [
+    "title": "Contáctos",
+    "itemsVen": [
       {
-        "title": "Teléfono",
-        "subtitle": "+52 (937) 116 8110"
+        "title": "tel",
+        "subtitle": "(937) 116 81 10"
       },
       {
-        "title": "Correo",
-        "subtitle": "ventas.psf@hotmail.com"
+        "title": "email",
+        "subtitle": "logistica.psf2021@gmail.com"
       },
       {
-        "title": "Dirección",
+        "title": "dir",
         "subtitle": "Carretera estatal tierra nueva 3ra. sección a estación Zanapa Km. 9 S/N, Huimanguillo, Tabasco. C.P. 86430"
+      }
+    ],
+    "itemsVac": [
+      {
+        "title": "tel",
+        "subtitle": "(917) 109 02 16"
+      },
+      {
+        "title": "email",
+        "subtitle": "capitalhumano.psf@gmail.com"
       }
     ]
   },

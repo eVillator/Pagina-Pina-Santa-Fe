@@ -1,0 +1,58 @@
+$color60 : hsl(194, 30%, 75%);
+$color30 : hsl(226, 85%, 39%);
+$color10 : hsl(226, 84%, 15%);
+$colorBlack : #16161d;
+$colorLight : hsl(0, 0%, 95%);
+
+// @media screen and (min-width: colors.$breakPointTablet){}
+
+//$breakPointMovil : 0px;
+$breakPointTablet : 576px;
+$breakPointLaptop : 768px;
+$breakPointDesktop : 1280px;
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+    color: $color60;
+    background-color: $colorBlack;
+
+    *{
+        color: $color60;
+        padding: 1em 0;
+        max-width: 60vw;
+        text-align: center;
+    }
+}
+    
+.footer__licencia{
+    color: #ffd000;
+    order: -1;
+    font-size: large;
+}
+
+@media screen and (min-width: $breakPointTablet){
+    footer{
+        position: relative;
+        bottom: 0;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        
+        *{
+            color: $color60;
+            padding: 2em 0;
+            max-width: 33vw;
+        }
+    }
+    .footer__licencia{
+        color: #ffd000;
+        order: 0;
+    }
+}
+
+

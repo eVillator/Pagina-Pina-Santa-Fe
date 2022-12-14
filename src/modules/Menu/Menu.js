@@ -24,13 +24,13 @@ function Menu(props) {
 
     switch (idSection) {
         case "colorA":
-            productA.style.backgroundColor = "rgba(255, 255, 204, .5)";
+            productA.style.backgroundColor = "rgba(212, 229, 199, .5)";
             break;
         case "colorB":
-            productB.style.backgroundColor = "rgba(255, 255, 179, .5)";
+            productB.style.backgroundColor = "rgba(212, 229, 199, .5)";
             break;
         case "colorC":
-            productC.style.backgroundColor = "rgba(255, 255, 153, .5)";
+            productC.style.backgroundColor = "rgba(212, 229, 199, .5)";
             break;
         default:
             break;

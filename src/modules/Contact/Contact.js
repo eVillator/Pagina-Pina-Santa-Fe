@@ -12,7 +12,13 @@ function Contact(props) {
         {content.title}
       </h3>
       <div className={`${cssClass}-box`}>
-        <ContactBox content={content.items} />   
+        <h3 className={`${cssClass}-title`}>Ventas</h3>
+        <ContactBox content={content.itemsVen} />   
+      </div>
+      <div className={`${cssClass}-box`}>
+        <h3 className={`${cssClass}-title`}>
+          Consulta nuestras vacantes</h3>
+        <ContactBox content={content.itemsVac} />   
       </div>
     </div>
   );

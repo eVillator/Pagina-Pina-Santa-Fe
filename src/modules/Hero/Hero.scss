@@ -6,7 +6,7 @@
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: $padding-large $padding-x-small $padding-extra-large;
+  padding: $padding-large $padding-x-small 50px;
   position: relative;
   text-align: center;
 
@@ -15,7 +15,7 @@
   }
 
   &:after {
-    content: "";
+    //content: "";
     height: 100%;
     position: absolute;
     top: 0;
@@ -39,6 +39,23 @@
   }
 
   &-icon {
-    margin: $padding-large 0 $padding-small;
+    margin: $padding-large 0 5px;
+  }
+
+  &-subtitle{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 170px;
+  }
+
+  &-subtitle2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 23px;
+    font-variant: small-caps;
+    padding: 0 0 0 40%;
+    color: #41b44b;
   }
 }

@@ -17,9 +17,12 @@ function Hero(props) {
       <h1 className={`${cssClass}-title`}>
         {content.title}
       </h1>
-      <h2 className={`${cssClass}-subtitle`}>
-        {content.subtitle}
-      </h2>
+        <h2 className={`${cssClass}-subtitle`}>
+          {content.subtitle}
+          <h2 className={`${cssClass}-subtitle2`}>
+        {content.subtitle2}
+          </h2>
+        </h2>      
     </div>
   );
 }

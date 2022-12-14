@@ -5,6 +5,19 @@ function Quote(props) {
   const content = props.content;
   const cssClass = 'Quote';
 
+  function Valores(){
+   return <ul className='valores'>
+      <li>Respeto</li>
+      <li>Compromiso</li>
+      <li>Honestidad</li>
+      <li>Disciplina</li>
+      <li>Lealtad</li>
+      <li>Responsabilidad</li>
+      <li>Trabajo en equipo</li>
+    </ul>
+      }
+  
+
   const Products = (() => {
     return content.culture.map((item,index) => {
       return (
@@ -14,7 +27,9 @@ function Quote(props) {
               {item.titulo}
             </h4>
             <p className={`${cssClass}-description`}>
-              {item.subtitulo}
+              {item.titulo !== "Valores" ? 
+              item.subtitulo : 
+              <Valores/>}
             </p>    
           </div>    
         </li>
